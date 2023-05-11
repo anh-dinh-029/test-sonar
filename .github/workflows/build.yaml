@@ -1,8 +1,7 @@
 name: Sonar Scanner
 
 on:
-  # Trigger analysis when pushing to your main branches, and when creating 
-a pull request.
+  # Trigger analysis when pushing to your main branches, and when creating a pull request.
   push:
     branches:
       - master
