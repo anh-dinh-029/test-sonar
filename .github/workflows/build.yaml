@@ -16,8 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          # Disabling shallow clone is recommended for improving relevancy 
-of reporting
+          # Disabling shallow clone is recommended for improving relevancy of reporting
           fetch-depth: 0
       
       - name: SonarQube Scan
@@ -29,4 +28,3 @@ of reporting
           args: >
           -Dsonar.projectKey= POC-Matching
           -Dsonar.sources= .
-
